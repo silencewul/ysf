@@ -1,39 +1,18 @@
 package main
 
+import "fmt"
+
 func main() {
+	ch := make(chan int, 10)
 
-	var m1 = make(map[string]string)
-	m1["1"] = "1"
-
-	//jd.Start()
-
-
-	//ysf.StartG()
-
-	//wxPusher.Push("测试内容")
-
-	//ysf.Start()
-
-	//icbc.Start()
-
-	//nsh.Start()
-
-	//music.Play()
-
-	//dmall.SeriesWareList()
-	//dmall.TradeInfo()
-	//dmall.OrderSubmit()
-	//ysf.StartT()
-	//wxPusher.Push()
-
-	//elm.Stat()
-
+	go test(ch)
+	for i := 0; i < 10; i++ {
+		fmt.Println(<-ch)
+	}
 }
 
-
-
-
-
-
-
-
+func test(ch chan<- int) {
+	for i := 0; i < 10; i++ {
+		ch <- i
+	}
+}
