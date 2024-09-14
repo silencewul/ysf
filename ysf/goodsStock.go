@@ -25,7 +25,7 @@ type GoodsStockResDTOS struct {
 func StartG()  {
 
 	//var htmlUrl = "https://mall.95516.com/newmobile/goods/202303013861001?channel=3"
-//https://mall.95516.com/mobileapi/goods/goodsStock?goodsNo=202304014225&goodsInfoNo=202304014225001
+	//https://mall.95516.com/mobileapi/goods/goodsStock?goodsNo=202304014225&goodsInfoNo=202304014225001
 	var goodsInfoNo = "202304014896001"
 
 	var goodsNo = goodsInfoNo[:12]

@@ -30,7 +30,7 @@ func Push(summary string) {
 	}
 	postUrl := "http://wxpusher.zjiecode.com/api/send/message"
 	form := new(Payload)
-	form.AppToken = "AT_KKgNkezIWUwRa8Uh1Co8BBeaOWy93VCo"
+	form.AppToken = "AT_YSftM3B9gpfb5rrY0e6FMJT0Zver7Kuu"
 	form.Content = "notice"
 	form.Summary = summary
 	form.ContentType = 1

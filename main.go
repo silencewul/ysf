@@ -3,14 +3,16 @@ package main
 import (
 	"fmt"
 	"time"
-	"ysf/test"
+
+	"ysf/ysf"
 )
 
 func main() {
 	//ysf.UStrat()
-	//ysf.Start()
 
-	test.StartG()
+	ysf.Start()
+
+	//test.StartG()
 
 	//fibonacci
 
