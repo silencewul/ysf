@@ -8,6 +8,7 @@ import (
 	"math/rand"
 	"time"
 	"ysf/music"
+	"ysf/wxPusher"
 )
 
 type response struct {
@@ -40,7 +41,7 @@ func StartG() {
 				json.Unmarshal(r.Body, body)
 				log.Println(body)
 				if body.Data.Stock > 0 {
-					//wxPusher.Push("常州电影票")
+					wxPusher.Push("常州电影票")
 					music.Play()
 				}
 				//fmt.Println(string(r.Body))
