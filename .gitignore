@@ -1,0 +1,16 @@
+# 忽略所有 .log 文件
+*.log
+ 
+# 忽略特定文件
+
+ 
+# 忽略整个目录
+node_modules/
+.idea/
+ 
+# 忽略目录下除某文件外的所有文件
+!/some_directory/important_file.txt
+ 
+# 忽略所有 .pdf 文件，除了 readme.pdf
+*.pdf
+!readme.pdf
