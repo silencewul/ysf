@@ -7,10 +7,9 @@
     <list default="true" id="a1329d75-16c5-486f-90b4-a33d8282acae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxPusher/push.go" beforeDir="false" afterPath="$PROJECT_DIR$/wxPusher/push.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ysf/goodsStock.go" beforeDir="false" afterPath="$PROJECT_DIR$/ysf/goodsStock.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ysf/ysf.go" beforeDir="false" afterPath="$PROJECT_DIR$/ysf/ysf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysf/uhui.go" beforeDir="false" afterPath="$PROJECT_DIR$/ysf/uhui.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="D:\Go" />
+  <component name="GOROOT" url="file://D:/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -48,18 +47,29 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="23P1xGWIRjaKevCnxoSbocKQeIE" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "C:/Users/wulei",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "go.vgo"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="ysf" />
@@ -82,67 +92,22 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VgoProject">
-    <integration-enabled>true</integration-enabled>
-    <proxy>direct</proxy>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="179" key="#GOROOT" timestamp="1726298195202">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="179" key="#GOROOT/0.0.1920.1040@0.0.1920.1040" timestamp="1726298195201" />
-    <state width="1877" height="243" key="GridCell.Tab.0.bottom" timestamp="1726299773177">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1726299773177" />
-    <state width="1877" height="243" key="GridCell.Tab.0.center" timestamp="1726299773177">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="243" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1726299773177" />
-    <state width="1877" height="243" key="GridCell.Tab.0.left" timestamp="1726299773177">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="243" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1726299773177" />
-    <state width="1877" height="243" key="GridCell.Tab.0.right" timestamp="1726299773177">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="243" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1726299773177" />
-    <state width="1877" height="243" key="GridCell.Tab.1.bottom" timestamp="1726299773098">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="243" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1726299773098" />
-    <state width="1877" height="243" key="GridCell.Tab.1.center" timestamp="1726299773098">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="243" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1726299773098" />
-    <state width="1877" height="243" key="GridCell.Tab.1.left" timestamp="1726299773098">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="243" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1726299773098" />
-    <state width="1877" height="243" key="GridCell.Tab.1.right" timestamp="1726299773098">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="243" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1726299773098" />
-    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1726298577298">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1726298577298" />
+    <settings-migrated>true</settings-migrated>
   </component>
 </project>

@@ -29,7 +29,7 @@ type uresponse struct {
 	} `json:"data"`
 }
 
-func UStrat() {
+func UStart() {
 
 	for {
 

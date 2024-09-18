@@ -7,12 +7,12 @@ import (
 )
 
 func main() {
-	//ysf.UStrat()
+	//ysf.UStart()
 	//ysf.Start()
 
 	//test.StartG()
 
-	ysf.TStart(1)
+	ysf.TStart(0)
 
 	//fibonacci
 
