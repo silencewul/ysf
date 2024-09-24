@@ -74,8 +74,8 @@ func TStart(num int) {
 				json.Unmarshal(r.Body, body)
 				// 判断
 				if body.RemainStock > 0 || body.Enable > 0 || body.SoldEnableStatus != false || body.SaleEnkStatus > 0 {
-					log.Println(body)
 					music.Play()
+					log.Println(body)
 				}
 				fmt.Println(body.Name, "--------------", body.SalesVol)
 			}

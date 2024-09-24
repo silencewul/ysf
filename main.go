@@ -12,7 +12,9 @@ func main() {
 
 	//test.StartG()
 
-	ysf.TStart(0)
+	// 20  ---- 1
+	// 10  ----0
+	ysf.TStart(1)
 
 	//fibonacci
 
