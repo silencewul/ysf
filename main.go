@@ -14,7 +14,7 @@ func main() {
 
 	// 20  ---- 1
 	// 10  ----0
-	ysf.TStart(1)
+	ysf.TStart(0)
 
 	//fibonacci
 

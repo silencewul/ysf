@@ -32,7 +32,7 @@ func TStart(num int) {
 	}
 	timeStr := fmt.Sprintf("%d-%v-%v 08:10:00", t.Year(), tMs, tDs)
 	startTime, _ := time.ParseInLocation("2006-01-02 15:04:05", timeStr, local) //2024-9-18 08:00:01
-	fmt.Println(startTime)
+	//fmt.Println(startTime)
 
 	for {
 
@@ -74,10 +74,10 @@ func TStart(num int) {
 				json.Unmarshal(r.Body, body)
 				// 判断
 				if body.RemainStock > 0 || body.Enable > 0 || body.SoldEnableStatus != false || body.SaleEnkStatus > 0 {
-					music.Play()
 					log.Println(body)
+					music.Play()
 				}
-				fmt.Println(body.Name, "--------------", body.SalesVol)
+				log.Println(body.Name, "--------------", body.SalesVol)
 			}
 		})
 
